@@ -462,3 +462,7 @@ footer .footer-below {
 .modal-body h2 {
     text-align: center !important;
 }
+
+#about a {
+    color: white !important;
+}
