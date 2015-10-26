@@ -46,3 +46,46 @@ credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+wikiToJekyll:
+
+  # your user Github Name
+  user_name: sasha240100
+
+  # your repository Name
+  repository_name: WhitestormJS
+
+  # set your remote name. 'origin' is the default name set
+  # when you do a 'git init'
+  # if you changed this name be sure to change this parameter
+  deploy_remote: "origin"
+
+  # for an organization / user, publication branch is master
+  # for a project, publication branch is gh-pages
+  deploy_branch: "gh-pages"
+
+  # wiki repository url
+  # if you live this blank, it will be derived from you code
+  # user_name and repository_name
+  #   eg : wiki_repository_url = user_name/repository_name/wiki'
+  #
+  # If you're importing a wiki from another code repository
+  # you MUST set this url
+  #
+  # IMPORTANT: no git@github.com: in front
+  #            You MUST use the htpps:// url or it will
+  #            cause a submodule error on github
+  #
+  # Example : https://github.com/userName/repositoryName.wiki.git
+
+  wiki_repository_url: https://github.com/sasha240100/WhitestormJS.wiki.git # https://github.com/userName/repositoryName.wiki.git
+
+  # wiki submodule folder
+  # the underscore makes sure that this folder is ignored by Jekyll
+  wiki_source: "_wiki"
+
+  # wiki Jekyll generated pages destination folder
+  wiki_dest: "wiki"
+
+  # commit and push to Jekyll repository after wiki synchronisation
+  commit_and_push: false

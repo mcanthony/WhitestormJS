@@ -1,0 +1,3 @@
+[submodule "whitestormjs.wiki"]
+	path = whitestormjs.wiki
+	url = https://github.com/sasha240100/whitestormjs.wiki.git
