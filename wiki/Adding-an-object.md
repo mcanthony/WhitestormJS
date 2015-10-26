@@ -3,6 +3,7 @@ layout: page
 title: Adding an object
 wikiPageName: Adding-an-object
 menu: wiki
+img: http://4.1m.yt/5ed58UzMN.png
 ---
 
 Every *WHS* object is a combination of **THREE.JS** and **CANNON.JS** rendering and physical meshes/geometries, initialized with using JSON to edit their parameters, like *radius, width, height, mass, position, etc.*

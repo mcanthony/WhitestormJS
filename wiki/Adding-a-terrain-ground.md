@@ -3,6 +3,7 @@ layout: page
 title: Adding a terrain ground
 wikiPageName: Adding-a-terrain-ground
 menu: wiki
+img: http://2.1m.yt/4ZL9FikzI.png
 ---
 
 Use *addGround* function to generate a terrain or ground object.
