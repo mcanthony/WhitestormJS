@@ -4,6 +4,7 @@ title: How to install
 wikiPageName: How-to-install
 menu: wiki
 img: https://raw.githubusercontent.com/sasha240100/WhitestormJS/master/logos/whitestormjs-flat.png
+modal-id: 2
 ---
 
 

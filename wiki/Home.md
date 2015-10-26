@@ -4,6 +4,7 @@ title: Home
 wikiPageName: Home
 menu: wiki
 img: https://raw.githubusercontent.com/sasha240100/WhitestormJS/master/logos/whitestormjs.png
+modal-id: 1
 ---
 
 # WhiteStormJS
