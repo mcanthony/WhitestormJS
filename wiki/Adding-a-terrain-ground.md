@@ -10,6 +10,7 @@ modal-id: 4
 Use *addGround* function to generate a terrain or ground object.
 
 **Example:**
+
 ```javascript
 GAME.ground = GAME.addGround("terrain",
 { // Terrain parameters
@@ -34,6 +35,7 @@ GAME.ground = GAME.addGround("terrain",
 ```
 
 **Structure:**
+
 ```javascript
 
 GAME.ground = GAME.addGround({{terrain type}},
