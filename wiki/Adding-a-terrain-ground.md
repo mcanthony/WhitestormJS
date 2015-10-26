@@ -12,26 +12,28 @@ Use *addGround* function to generate a terrain or ground object.
 **Example:**
 
 ```javascript
+
 GAME.ground = GAME.addGround("terrain",
-{ // Terrain parameters
-    terrain: defaultTerrainMap, // Terrain base64 image object
-    depth: 100, // depth range.
-    width: 250, // X.
-    height: 250, // Z.
-    detality:1 // If this is set, terrain is smooth (no distruction) and more detailed. (more faces)
-},
-{ // material options
-        vertexColors: THREE.VertexColors,
-        shading: THREE.SmoothShading,
-        map: api.texture('textures/grasslight-big.jpg'),
-        side: THREE.DoubleSide,
-        type: "lambert"
-},
-{ // position
-    x: 0,
-    y: 0,
-    z: 0
-});
+    { // Terrain parameters
+        terrain: defaultTerrainMap, // Terrain base64 image object
+        depth: 100, // depth range.
+        width: 250, // X.
+        height: 250, // Z.
+        detality:1 // If this is set, terrain is smooth (no distruction) and more detailed. (more faces)
+    },
+    { // material options
+            vertexColors: THREE.VertexColors,
+            shading: THREE.SmoothShading,
+            map: api.texture('textures/grasslight-big.jpg'),
+            side: THREE.DoubleSide,
+            type: "lambert"
+    },
+    { // position
+        x: 0,
+        y: 0,
+        z: 0
+    });
+    
 ```
 
 **Structure:**
@@ -43,6 +45,7 @@ GAME.ground = GAME.addGround({{terrain type}},
    {{material options}},
    {{position}}
 );
+
 ```
 
 - **terrain type** - Type of terrain. Can be:

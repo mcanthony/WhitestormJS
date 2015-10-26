@@ -12,23 +12,25 @@ Every *WHS* object is a combination of **THREE.JS** and **CANNON.JS** rendering 
 Here is a basic example of adding a sphere to our *GAME* world object:
 
 ```javascript
+
 GAME.sphere = GAME.addObject("sphere",
-{
-    geometryOptions: {
-        radius:3 // Sphere radius
-    },
-    mass: 10, // Mass for CANNON.JS
-    onlyvis: false, // If set true - no physic for this object
-    materialOptions: { // ThreeJs material options
-        color: 0xffffff,
-        type: "basic"
-    },
-    pos: { // position in space
-        x: 0,
-        y: 100,
-        z: 0
-    }
-});
+    {
+        geometryOptions: {
+            radius:3 // Sphere radius
+        },
+        mass: 10, // Mass for CANNON.JS
+        onlyvis: false, // If set true - no physic for this object
+        materialOptions: { // ThreeJs material options
+            color: 0xffffff,
+            type: "basic"
+        },
+        pos: { // position in space
+            x: 0,
+            y: 100,
+            z: 0
+        }
+    });
+    
 ```
 
 **Note** that *GAME.sphere* is used only for setting it as an object (returned from this func.)

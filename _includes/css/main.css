@@ -458,3 +458,7 @@ footer .footer-below {
 .modal-body {
     text-align: left !important;
 }
+
+.modal-body h2 {
+    text-align: center !important;
+}
