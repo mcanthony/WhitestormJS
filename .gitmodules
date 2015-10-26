@@ -1,3 +1,6 @@
 [submodule "whitestormjs.wiki"]
 	path = whitestormjs.wiki
 	url = https://github.com/sasha240100/whitestormjs.wiki.git
+[submodule "_wiki"]
+	path = _wiki
+	url = https://github.com/sasha240100/WhitestormJS.wiki.git
