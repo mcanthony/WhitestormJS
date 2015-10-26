@@ -40,10 +40,10 @@ GAME.ground = GAME.addGround("terrain",
 
 ```javascript
 
-GAME.ground = GAME.addGround({{terrain type}},
-   {{terrain parameters}},
-   {{material options}},
-   {{position}}
+GAME.ground = GAME.addGround(terrain type,
+   terrain parameters,
+   material options,
+   position
 );
 
 ```
