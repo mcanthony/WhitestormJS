@@ -2,8 +2,8 @@
 title: WhitestormJS
 email: alexbuzin88@gmail.com
 url: http://sasha240100.github.io/WhitestormJS/
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+description: "WhitestormJS is a library to combine Three.Js with Cannon.js. It makes WebGL development easy."
+skills: "WebGL support - THREE.JS - CANNON.JS"
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -17,31 +17,31 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
+  copyright: Alexander Buzin 2015
+  location: Kiev, Ukraine
+  social: 3D LIBRARY
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: https://twitter.com/_alex_buzin
   - title: facebook
-    url:
+    url: https://www.facebook.com/sasha.buzin.5
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: #
   - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: #
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/sasha240100/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Kiev, Ukraine
+  - line:
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Alexander Buzin, web-developer and web-design.'
 
 # Build settings
 markdown: kramdown
