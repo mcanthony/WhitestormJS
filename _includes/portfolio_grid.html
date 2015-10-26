@@ -8,6 +8,13 @@
                     <hr class="star-primary">
                 </div>
             </div>
+            <ul class="wikiMenu">
+              {% for p in site.pages %}
+                {% if p.menu == "wiki" %}
+                <li><a class="post-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
             <div class="row">
                 {% for post in site.posts %}
                     <div class="col-sm-4 portfolio-item">
