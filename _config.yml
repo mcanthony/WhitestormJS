@@ -18,7 +18,7 @@ color:
 # Footer settings
 footer:
   copyright: Alexander Buzin 2015
-  location: Kiev, Ukraine
+  location: Location / Email
   social: 3D LIBRARY
   credits: Credits
 
@@ -38,7 +38,7 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: Kiev, Ukraine
-  - line:
+  - line: alexbuzin88@gmail.com
 
 # Credits content
 credits: 'Alexander Buzin, web-developer and web-design.'
