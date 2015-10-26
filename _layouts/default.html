@@ -16,5 +16,13 @@
     {% include footer.html %}
     {% include modals.html %}
     {% include js.html %}
+    <script>
+        $('code').each(function(index, el) {
+            var a = $(el).html();
+
+            if(a.indexOf('javascript')>=0)
+                $(el).html(a.substring(0, a.indexOf('javascipt')) + a.substring(a.indexOf('javascript') + 10, a.length))
+        })
+    </script>
     </body>
 </html>
