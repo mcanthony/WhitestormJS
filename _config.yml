@@ -25,15 +25,15 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/_alex_buzin
+    url: https://twitter.com/whitestormjs
   - title: facebook
     url: https://www.facebook.com/sasha.buzin.5
   - title: stack-overflow
-    url: #
+    url: http://stackoverflow.com/users/5494315/alexander-buzin
   - title: bitbucket
-    url: #
+    url: https://bitbucket.org/sasha240100/whitestormjs/
   - title: github
-    url: https://github.com/sasha240100/
+    url: https://github.com/sasha240100/whitestormjs/
 
 # Postal address (add as many lines as necessary)
 address:
