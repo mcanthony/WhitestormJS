@@ -3,7 +3,7 @@ layout: page
 title: Home
 wikiPageName: Home
 menu: wiki
-img: https://raw.githubusercontent.com/sasha240100/WhitestormJS/master/logos/whitestormjs.png
+img: http://3.1m.yt/D-VTM9d9-.png
 modal-id: 1
 ---
 
