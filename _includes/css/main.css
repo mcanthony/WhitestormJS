@@ -266,7 +266,7 @@ section.success {
 .btn-outline.active {
     border: solid 2px #fff;
     color: #{{ site.color.primary }};
-    background: #fff;
+    background: rgba(255,255,255,0.5);
 }
 
 .floating-label-form-group {
