@@ -464,3 +464,14 @@ footer .footer-below {
 #download a {
     color: white !important;
 }
+
+#download hr::after {
+    color: #fff;
+    background: #18bc9c !important;
+    box-shadow: 0 0 50px black !important;
+    border-radius: 100% !important;
+}
+
+#download {
+    background: url(../img/pattern.png);
+}
